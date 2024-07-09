@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body .container {
+    height: 100%;
+    width: 100%;
+    font-family: "ABeeZee", sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    color: #FFFFFF;
+    padding: 20px 85px 20px 85px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.box1 {
+    display: flex;
+    gap: 29px;
+}
+
+.box2 {
+    display: flex;
+    gap: 29px;
+}
+
+.box3 {
+    display: flex;
+    gap: 16px;
+}
+
+/* another page 2 */
+.box {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box4 h1 {
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+.box4 h2 {
+    margin-top: 10px;
+    color: chartreuse;
+}
+
+.box4 p {
+    margin-top: 20px;
+
+}
+
+.nunber1 {
+    font-family: 'Netron', sans-serif;
+    font-size: 180px;
+}
+
+.symbol {
+    color: chartreuse;
+}
+
+.text {
+    font-size: 13px;
+    color: #B9B9B9;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-btn {
+    background-color: chartreuse;
+    margin-top: 20px;
+    padding: 18px 25px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+/*  another page 3 */
+.service {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 2px; */
+}
+
+.box6 h1 {
+    font-size: 50px;
+}
+
+.design1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description {
+    margin-left: 10px;
+}
+
+.para {
+    margin-top: 10px;
+}
+
+.separator {
+    margin: 30px 0px;
+    border: 0.5px solid #575757;
+}
+
+/* another page 4 */
+.nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #151515;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.text2 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box16 span {
+    color: chartreuse;
+}
+
+.d-flex-space-btween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.behance-button {
+    border: 1px solid #D0D0D0;
+    background-color: inherit;
+    color: inherit;
+    padding: 20px 15px;
+}
+
+/* Hire us  */
+.contact-us {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.font-85 {
+    font-size: 85px;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.testing-border {
+    border: 1px solid red;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    text-align: left;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.input-group>div:first-child {
+    margin-bottom: 80px;
+}
+
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.input-group input {
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    color: inherit;
+    border: none;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        background-color: #CBFE47;
+    }
+}
